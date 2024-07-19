@@ -8,7 +8,7 @@ import '@fontsource/roboto/700.css';
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "ELH",
+  title: "Full-stack Ruby, Rails, Python, FlaskAPI and React developer",
   description: "Full-stack Ruby, Rails, Python, FlaskAPI and React developer",
 };
 
