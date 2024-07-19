@@ -14,7 +14,7 @@ const About = () => {
           width: "50%",
           textAlign: "center",
           margin: "0 auto",
-          height: "100vh"
+          height: "95vh"
         }}
       >
         <h1>
