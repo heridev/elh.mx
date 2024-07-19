@@ -1,4 +1,12 @@
-async function Home() {
+// import PaymentMethodSelector from "./PaymentMethodSelector";
+// use client from next
+'use client';
+
+import React from "react";
+
+import UserRegistration from "./UserRegistration";
+
+function Home() {
   // pending...
   // const data = await fetch('...')
 
@@ -17,6 +25,8 @@ async function Home() {
         }}
       >
         <h1>Full-stack Ruby, Rails, Python, FlaskAPI and React developer</h1>
+        <UserRegistration onSubmit={(values) => console.log(values, 'values')} />
+        {/* <PaymentMethodSelector onSelect={(paymentMethod) => console.log(paymentMethod)} /> */}
       </div>
     </div>
   );
